@@ -1,2 +1,15 @@
-def somar(a: int, b: int) -> int:
-    return 5
+import math
+
+def somar(a, b):
+    return a + b
+
+def subtrair(a, b):
+    return a - b
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    if b == 0:
+        return math.nan
+    return a / b
